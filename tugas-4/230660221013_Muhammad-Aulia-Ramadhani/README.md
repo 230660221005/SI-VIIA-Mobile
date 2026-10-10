@@ -14,4 +14,4 @@ Kantin Kampus merupakan aplikasi sederhana yang membantu mahasiswa melihat dafta
 ## Refleksi Pengerjaan
 
 Melalui tugas ini, saya memahami pentingnya mengidentifikasi kebutuhan pengguna sebelum mengembangkan sebuah aplikasi. Saya belajar menyusun kebutuhan fungsional dan nonfungsional, menentukan prioritas fitur menggunakan MoSCoW, serta menggambarkan alur pengguna melalui user flow. Saya menyadari bahwa perancangan kebutuhan yang jelas dapat membantu proses pengembangan aplikasi agar lebih terarah dan sesuai dengan kebutuhan pengguna.
-  
+    
