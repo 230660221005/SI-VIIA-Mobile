@@ -1,3 +1,7 @@
+// Bantuan: ChatGPT — membantu memahami instruksi Tugas 3,
+// menjelaskan penggunaan widget Flutter, dan membantu
+// menyusun struktur awal halaman SI RAKUS.
+
 import 'package:flutter/material.dart';
 
 void main() {
