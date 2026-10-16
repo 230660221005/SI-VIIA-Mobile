@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tugas 1 — Identifikasi Kebutuhan Aplikasi Bergerak
 
 **Nama:** Ade Yusup Maulana
@@ -199,6 +198,3 @@ Fitur perangkat yang paling relevan untuk Sistem Informasi Penjualan Warung adal
 ## Kesimpulan
 
 Tugas ini menghasilkan identifikasi kebutuhan untuk Sistem Informasi Penjualan Warung yang dirancang sebagai aplikasi mobile menggunakan Flutter. Identifikasi mencakup deskripsi sistem, arsitektur aplikasi, kebutuhan pengguna, karakteristik aplikasi bergerak, serta bukti kesiapan environment Flutter. Pengembangan selanjutnya dapat dilakukan dengan mengimplementasikan fitur produk, transaksi, riwayat penjualan, REST API, dan database sesuai kebutuhan yang telah diidentifikasi.
-=======
-# SI-VIIA-Mobile
->>>>>>> c8c214480c46a4e576067b94470d7dc357b3c180
