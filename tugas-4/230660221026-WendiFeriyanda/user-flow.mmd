@@ -1,0 +1,22 @@
+flowchart TD
+    S([Mulai: mahasiswa membuka SI RAKUS]) --> A[Halaman utama: katalog buku]
+    A --> B[Masukkan judul atau kata kunci]
+    B --> C{Kata kunci sudah diisi?}
+
+    C -- Tidak --> D[Tampilkan pesan untuk mengisi kata kunci]
+    D --> B
+    C -- Ya --> E[Jalankan pencarian katalog]
+    E --> F{Buku ditemukan?}
+
+    F -- Tidak --> G[Tampilkan pesan buku tidak ditemukan]
+    G --> B
+    F -- Ya --> H[Tampilkan daftar hasil pencarian]
+    H --> I[Pilih buku]
+    I --> J[Tampilkan detail dan stok buku]
+    J --> K{Stok tersedia?}
+
+    K -- Ya --> L[Tampilkan status buku tersedia]
+    L --> T([Tujuan tercapai: status buku diketahui])
+    K -- Tidak --> M[Tampilkan status stok habis]
+    M --> N[Kembali ke daftar hasil pencarian]
+    N --> H
