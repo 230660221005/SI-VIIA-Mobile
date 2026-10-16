@@ -23,6 +23,7 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           BASE_REF: ${{ github.event.pull_request.base.ref }}
           AUTHOR: ${{ github.event.pull_request.user.login }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           set -euo pipefail
           FAIL_MSG=""
@@ -68,6 +69,16 @@ jobs:
             case "$filename" in
               README.md|.gitignore|.github/*) fail "menyentuh file lindung repo: $filename" ;;
             esac
+            if [ "$status" != "removed" ]; then
+              enc=$(jq -rn --arg s "$filename" '$s | split("/") | map(@uri) | join("/")')
+              B64=$(gh api "repos/$REPO/contents/$enc?ref=$HEAD_SHA" --jq '.content // ""' 2>/dev/null || true)
+              if [ -n "$B64" ]; then
+                TXT=$(printf '%s' "$B64" | base64 -d 2>/dev/null || true)
+                if grep -qE '^(<{7}|>{7}|\|{7})' <<<"$TXT" 2>/dev/null; then
+                  fail "berisi conflict marker: $filename"
+                fi
+              fi
+            fi
             for p in "$filename" ${prev:+"$prev"}; do
               nims=$(tr -cs '0-9' '\n' <<<"$p" | grep -E '^2306[0-9]{7,}$' | sort -u || true)
               for nim in $nims; do
