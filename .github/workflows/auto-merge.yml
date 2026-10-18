@@ -16,6 +16,14 @@ jobs:
       group: guard-pr-${{ github.event.pull_request.number }}
       cancel-in-progress: true
     steps:
+      - name: Checkout isi PR (hindari fetch per-file ke API)
+        uses: actions/checkout@v5
+        continue-on-error: true
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          fetch-depth: 1
+          path: pr
+
       - name: Safety check
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -24,6 +32,7 @@ jobs:
           BASE_REF: ${{ github.event.pull_request.base.ref }}
           AUTHOR: ${{ github.event.pull_request.user.login }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_DIR: ${{ github.workspace }}/pr
         run: |
           set -euo pipefail
           FAIL_MSG=""
@@ -74,13 +83,10 @@ jobs:
                 ;;
             esac
             if [ "$status" != "removed" ]; then
-              enc=$(jq -rn --arg s "$filename" '$s | split("/") | map(@uri) | join("/")')
-              B64=$(gh api "repos/$REPO/contents/$enc?ref=$HEAD_SHA" --jq '.content // ""' 2>/dev/null || true)
-              if [ -n "$B64" ]; then
-                TXT=$(printf '%s' "$B64" | base64 -d 2>/dev/null || true)
-                if grep -qE '^(<{7}|>{7}|\|{7})' <<<"$TXT" 2>/dev/null; then
-                  fail "berisi conflict marker: $filename"
-                fi
+              if [ ! -d "$PR_DIR" ]; then
+                fail "tidak bisa baca isi PR (checkout gagal), cek conflict marker manual: $filename"
+              elif grep -qE '^(<{7}|>{7}|\|{7})' "$PR_DIR/$filename" 2>/dev/null; then
+                fail "berisi conflict marker: $filename"
               fi
             fi
             for p in "$filename" ${prev:+"$prev"}; do
