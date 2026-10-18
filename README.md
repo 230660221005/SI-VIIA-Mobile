@@ -68,14 +68,21 @@
       <sub>230660221127</sub>
     </td>
     <td align="center">
+      <a href="https://github.com/230660221009">
+        <img src="https://avatars.githubusercontent.com/u/203071958?v=4&s=200" width="100px;" alt="230660221009"/><br>
+        <sub><b>ADE YUSUP MAULANA</b></sub>
+      </a><br>
+      <sub>230660221009</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="https://github.com/230660221010">
         <img src="https://avatars.githubusercontent.com/u/202970202?v=4&s=200" width="100px;" alt="230660221010"/><br>
         <sub><b>Dede Dian Permana</b></sub>
       </a><br>
       <sub>230660221010</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/WendiFeriyanda">
         <img src="https://avatars.githubusercontent.com/u/202412016?v=4&s=200" width="100px;" alt="WendiFeriyanda"/><br>
@@ -90,15 +97,15 @@
       </a><br>
       <sub>230660221109</sub>
     </td>
-    <td align="center">
-      <a href="https://github.com/230660221009">
-        <img src="https://avatars.githubusercontent.com/u/203071958?v=4&s=200" width="100px;" alt="230660221009"/><br>
-        <sub><b>ADE YUSUP MAULANA</b></sub>
-      </a><br>
-      <sub>230660221009</sub>
-    </td>
   </tr>
   <tr>
+    <td align="center">
+      <a href="https://github.com/ameliapl3">
+        <img src="https://avatars.githubusercontent.com/u/203064031?v=4&s=200" width="100px;" alt="ameliapl3"/><br>
+        <sub><b>230660221101</b></sub>
+      </a><br>
+      <sub>230660221101</sub>
+    </td>
     <td align="center">
       <a href="https://github.com/sesipramesti05">
         <img src="https://avatars.githubusercontent.com/u/203070690?v=4&s=200" width="100px;" alt="sesipramesti05"/><br>
@@ -112,13 +119,6 @@
         <sub><b>Nazwa230660221104</b></sub>
       </a><br>
       <sub>230660221104</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/ameliapl3">
-        <img src="https://avatars.githubusercontent.com/u/203064031?v=4&s=200" width="100px;" alt="ameliapl3"/><br>
-        <sub><b>230660221101</b></sub>
-      </a><br>
-      <sub>230660221101</sub>
     </td>
   </tr>
   <tr>
