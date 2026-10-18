@@ -67,7 +67,11 @@ jobs:
               fail "menghapus file: $filename"
             fi
             case "$filename" in
-              README.md|.gitignore|.github/*) fail "menyentuh file lindung repo: $filename" ;;
+              README.md|.gitignore|.github/*)
+                if [ "$AUTHOR" != "yysofiyan" ]; then
+                  fail "menyentuh file lindung repo: $filename"
+                fi
+                ;;
             esac
             if [ "$status" != "removed" ]; then
               enc=$(jq -rn --arg s "$filename" '$s | split("/") | map(@uri) | join("/")')
