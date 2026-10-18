@@ -68,21 +68,14 @@
       <sub>230660221127</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/230660221009">
-        <img src="https://avatars.githubusercontent.com/u/203071958?v=4&s=200" width="100px;" alt="230660221009"/><br>
-        <sub><b>ADE YUSUP MAULANA</b></sub>
-      </a><br>
-      <sub>230660221009</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
       <a href="https://github.com/230660221010">
         <img src="https://avatars.githubusercontent.com/u/202970202?v=4&s=200" width="100px;" alt="230660221010"/><br>
         <sub><b>Dede Dian Permana</b></sub>
       </a><br>
       <sub>230660221010</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/WendiFeriyanda">
         <img src="https://avatars.githubusercontent.com/u/202412016?v=4&s=200" width="100px;" alt="WendiFeriyanda"/><br>
@@ -95,7 +88,14 @@
         <img src="https://avatars.githubusercontent.com/u/203070532?v=4&s=200" width="100px;" alt="lalajalaliah"/><br>
         <sub><b>lalajalaliah</b></sub>
       </a><br>
-      <sub>230660221109</sub>
+      <sub>230660221101</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/230660221009">
+        <img src="https://avatars.githubusercontent.com/u/203071958?v=4&s=200" width="100px;" alt="230660221009"/><br>
+        <sub><b>ADE YUSUP MAULANA</b></sub>
+      </a><br>
+      <sub>230660221009</sub>
     </td>
   </tr>
   <tr>
@@ -141,7 +141,7 @@
         <img src="https://avatars.githubusercontent.com/u/28897?v=4&s=200" width="100px;" alt="ferry"/><br>
         <sub><b>ferry</b></sub>
       </a><br>
-      <sub>230660221109</sub>
+      <sub>230660221101</sub>
     </td>
   </tr>
 </table>
