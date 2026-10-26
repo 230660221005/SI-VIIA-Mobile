@@ -1,0 +1,31 @@
+flowchart TD
+    A["runApp(MyApp)"]
+    A --> B["MyApp"]
+    B --> C["MaterialApp"]
+    C --> D["HalamanPerpustakaan"]
+    D --> E["Scaffold"]
+
+    E --> F["AppBar"]
+    F --> G["Text: SI RAKUS"]
+
+    E --> H["body: Column"]
+
+    H --> I["Padding"]
+    I --> J["Text: Selamat Datang di SI RAKUS"]
+
+    H --> K["SizedBox"]
+
+    H --> L["ListView.builder"]
+    L --> M["BukuListTile"]
+
+    M --> N["Padding"]
+    N --> O["Row"]
+
+    O --> P["Icon"]
+    O --> Q["SizedBox"]
+    O --> R["Expanded"]
+    O --> S["Text: Stok"]
+
+    R --> T["Column"]
+    T --> U["Text: Judul"]
+    T --> V["Text: Penulis"]

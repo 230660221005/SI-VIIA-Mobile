@@ -1,0 +1,14 @@
+flowchart TD
+    S(["Mulai: pelanggan membuka aplikasi"]) --> A["Halaman utama:<br>katalog layanan"]
+    A --> B["Pilih layanan<br>(cleaning/nanocoating)"]
+    B --> C["Form pemesanan:<br>alamat, tanggal, jenis layanan"]
+    C --> D{"Data form valid?"}
+    D -- "Tidak" --> E["Tampilkan pesan kesalahan<br>per kolom"]
+    E --> C
+    D -- "Ya" --> F["Cek ketersediaan jadwal teknisi"]
+    F --> G{"Jadwal tersedia pada<br>tanggal dipilih?"}
+    G -- "Tidak" --> H["Tampilkan tanggal alternatif"]
+    H --> C
+    G -- "Ya" --> I["Kirim pemesanan"]
+    I --> J["Konfirmasi:<br>status menunggu persetujuan"]
+    J --> T(["Tujuan tercapai:<br>pesanan tercatat & dapat dipantau"])

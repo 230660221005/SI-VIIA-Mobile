@@ -1,0 +1,20 @@
+flowchart TD
+    S(["Mulai: Mahasiswa membuka aplikasi"]) --> A["Halaman utama SiRuang Kampus"]
+    A --> B["Buka daftar ruangan"]
+    B --> C["Pilih ruangan"]
+    C --> D["Pilih tanggal dan waktu"]
+    D --> E["Tampilkan jadwal penggunaan"]
+    E --> F{"Ruangan tersedia?"}
+
+    F -- "Tidak" --> G["Tampilkan jadwal bentrok"]
+    G --> C
+    F -- "Ya" --> H["Buka formulir peminjaman"]
+    H --> I["Isi tujuan dan data peminjaman"]
+    I --> J{"Data lengkap dan valid?"}
+
+    J -- "Tidak" --> K["Tampilkan pesan kesalahan"]
+    K --> H
+    J -- "Ya" --> L["Kirim permohonan"]
+    L --> M["Simpan permohonan"]
+    M --> N["Tampilkan konfirmasi pengajuan"]
+    N --> T(["Tujuan tercapai: permohonan tercatat dan menunggu pemeriksaan"])
