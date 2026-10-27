@@ -31,18 +31,18 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/230660221002">
-        <img src="https://avatars.githubusercontent.com/u/203043392?v=4&s=200" width="100px;" alt="230660221002"/><br>
-        <sub><b>Galih Permana Sidik</b></sub>
-      </a><br>
-      <sub>230660221002</sub>
-    </td>
-    <td align="center">
       <a href="https://github.com/MuhammadAuliaRamadhani230660221013">
         <img src="https://avatars.githubusercontent.com/u/203065683?v=4&s=200" width="100px;" alt="MuhammadAuliaRamadhani230660221013"/><br>
         <sub><b>MuhammadAuliaRamadhani230660221013</b></sub>
       </a><br>
       <sub>230660221013</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/230660221002">
+        <img src="https://avatars.githubusercontent.com/u/203043392?v=4&s=200" width="100px;" alt="230660221002"/><br>
+        <sub><b>Galih Permana Sidik</b></sub>
+      </a><br>
+      <sub>230660221002</sub>
     </td>
     <td align="center">
       <a href="https://github.com/ameliaoktaviani">
@@ -100,18 +100,18 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/ameliapl3">
-        <img src="https://avatars.githubusercontent.com/u/203064031?v=4&s=200" width="100px;" alt="ameliapl3"/><br>
-        <sub><b>230660221101</b></sub>
-      </a><br>
-      <sub>230660221101</sub>
-    </td>
-    <td align="center">
       <a href="https://github.com/sesipramesti05">
         <img src="https://avatars.githubusercontent.com/u/203070690?v=4&s=200" width="100px;" alt="sesipramesti05"/><br>
         <sub><b>sesipramesti05</b></sub>
       </a><br>
       <sub>230660221017</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ameliapl3">
+        <img src="https://avatars.githubusercontent.com/u/203064031?v=4&s=200" width="100px;" alt="ameliapl3"/><br>
+        <sub><b>230660221101</b></sub>
+      </a><br>
+      <sub>230660221101</sub>
     </td>
     <td align="center">
       <a href="https://github.com/Nazwa230660221104">
