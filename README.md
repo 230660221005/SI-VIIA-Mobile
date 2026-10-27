@@ -45,14 +45,21 @@
       <sub>230660221013</sub>
     </td>
     <td align="center">
+      <a href="https://github.com/ameliaoktaviani">
+        <img src="https://avatars.githubusercontent.com/u/203069235?v=4&s=200" width="100px;" alt="ameliaoktaviani"/><br>
+        <sub><b>ameliaoktaviani</b></sub>
+      </a><br>
+      <sub>230660221127</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="https://github.com/fajar230660221093">
         <img src="https://avatars.githubusercontent.com/u/202958534?v=4&s=200" width="100px;" alt="fajar230660221093"/><br>
         <sub><b>Fajar</b></sub>
       </a><br>
       <sub>230660221093</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/230660221009">
         <img src="https://avatars.githubusercontent.com/u/203071958?v=4&s=200" width="100px;" alt="230660221009"/><br>
@@ -67,6 +74,8 @@
       </a><br>
       <sub>230660221023</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/230660221010">
         <img src="https://avatars.githubusercontent.com/u/202970202?v=4&s=200" width="100px;" alt="230660221010"/><br>
@@ -74,8 +83,6 @@
       </a><br>
       <sub>230660221010</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/WendiFeriyanda">
         <img src="https://avatars.githubusercontent.com/u/202412016?v=4&s=200" width="100px;" alt="WendiFeriyanda"/><br>
@@ -87,13 +94,6 @@
       <a href="https://github.com/lalajalaliah">
         <img src="https://avatars.githubusercontent.com/u/203070532?v=4&s=200" width="100px;" alt="lalajalaliah"/><br>
         <sub><b>lalajalaliah</b></sub>
-      </a><br>
-      <sub>230660221009</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/ameliaoktaviani">
-        <img src="https://avatars.githubusercontent.com/u/203069235?v=4&s=200" width="100px;" alt="ameliaoktaviani"/><br>
-        <sub><b>ameliaoktaviani</b></sub>
       </a><br>
       <sub>230660221127</sub>
     </td>
@@ -141,7 +141,7 @@
         <img src="https://avatars.githubusercontent.com/u/28897?v=4&s=200" width="100px;" alt="ferry"/><br>
         <sub><b>ferry</b></sub>
       </a><br>
-      <sub>230660221009</sub>
+      <sub>230660221127</sub>
     </td>
   </tr>
 </table>
