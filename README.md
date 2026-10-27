@@ -95,7 +95,7 @@
         <img src="https://avatars.githubusercontent.com/u/203070532?v=4&s=200" width="100px;" alt="lalajalaliah"/><br>
         <sub><b>lalajalaliah</b></sub>
       </a><br>
-      <sub>230660221127</sub>
+      <sub>230660221017</sub>
     </td>
   </tr>
   <tr>
@@ -141,7 +141,7 @@
         <img src="https://avatars.githubusercontent.com/u/28897?v=4&s=200" width="100px;" alt="ferry"/><br>
         <sub><b>ferry</b></sub>
       </a><br>
-      <sub>230660221127</sub>
+      <sub>230660221017</sub>
     </td>
   </tr>
 </table>
