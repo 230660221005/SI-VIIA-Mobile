@@ -61,18 +61,18 @@
       <sub>230660221093</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/230660221009">
-        <img src="https://avatars.githubusercontent.com/u/203071958?v=4&s=200" width="100px;" alt="230660221009"/><br>
-        <sub><b>ADE YUSUP MAULANA</b></sub>
-      </a><br>
-      <sub>230660221009</sub>
-    </td>
-    <td align="center">
       <a href="https://github.com/nisa230660221023">
         <img src="https://avatars.githubusercontent.com/u/203064935?v=4&s=200" width="100px;" alt="nisa230660221023"/><br>
         <sub><b>nisa230660221023</b></sub>
       </a><br>
       <sub>230660221023</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/230660221009">
+        <img src="https://avatars.githubusercontent.com/u/203071958?v=4&s=200" width="100px;" alt="230660221009"/><br>
+        <sub><b>ADE YUSUP MAULANA</b></sub>
+      </a><br>
+      <sub>230660221009</sub>
     </td>
   </tr>
   <tr>
@@ -95,7 +95,7 @@
         <img src="https://avatars.githubusercontent.com/u/203070532?v=4&s=200" width="100px;" alt="lalajalaliah"/><br>
         <sub><b>lalajalaliah</b></sub>
       </a><br>
-      <sub>230660221017</sub>
+      <sub>230660221023</sub>
     </td>
   </tr>
   <tr>
@@ -141,7 +141,7 @@
         <img src="https://avatars.githubusercontent.com/u/28897?v=4&s=200" width="100px;" alt="ferry"/><br>
         <sub><b>ferry</b></sub>
       </a><br>
-      <sub>230660221017</sub>
+      <sub>230660221023</sub>
     </td>
   </tr>
 </table>
