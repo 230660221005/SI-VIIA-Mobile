@@ -1,0 +1,10 @@
+flowchart LR
+    A["Aplikasi Mobile SiAngkut (Flutter)"]
+    B["Backend SiAngkut (REST API)"]
+    C[("Database Layanan Sampah")]
+
+    A -->|"HTTP Request (JSON)"| B
+    B -->|"Query atau perubahan data"| C
+    C -->|"Data hasil query"| B
+    B -->|"HTTP Response (JSON)"| A
+    
