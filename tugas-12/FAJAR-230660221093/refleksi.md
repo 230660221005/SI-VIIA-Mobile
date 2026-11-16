@@ -1,0 +1,5 @@
+# Refleksi — Tugas 12
+
+1. Risiko keamanan paling penting pada project adalah pengiriman dan pengelolaan data pengajuan/pesanan tanpa validasi dan perlindungan yang konsisten (misalnya input tidak tervalidasi, endpoint tidak HTTPS, atau token/izin fitur ditangani sembarangan) sehingga data pengguna dan proses bisnis dapat disalahgunakan.
+2. Mitigasi yang dipilih adalah menerapkan validasi client dan sanitasi pada form (`lib/services/validasi_input.dart`, `lib/halaman-validasi-pesanan.dart`), memvalidasi format/ukuran lampiran foto, memisahkan akses fitur perangkat dengan penanganan izin/pembatalan, menggunakan prinsip HTTPS untuk data sensitif, serta mendokumentasikan pengelolaan token (tidak di-log/hardcode, secure storage, hapus saat logout) dan pembatasan permission.
+3. Hal yang masih perlu diperbaiki adalah menghubungkan autentikasi/token dan pemeriksaan server otoritatif pada backend production, menambahkan pengujian otomatis untuk skenario validasi/keamanan, serta melengkapi alur logout, refresh/expiry token, dan konfigurasi permission platform sesuai target rilis.
