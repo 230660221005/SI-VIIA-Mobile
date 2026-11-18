@@ -31,18 +31,18 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/230660221002">
-        <img src="https://avatars.githubusercontent.com/u/203043392?v=4&s=200" width="100px;" alt="230660221002"/><br>
-        <sub><b>Galih Permana Sidik</b></sub>
-      </a><br>
-      <sub>230660221002</sub>
-    </td>
-    <td align="center">
       <a href="https://github.com/fajar230660221093">
         <img src="https://avatars.githubusercontent.com/u/202958534?v=4&s=200" width="100px;" alt="fajar230660221093"/><br>
         <sub><b>Fajar</b></sub>
       </a><br>
       <sub>230660221093</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/230660221002">
+        <img src="https://avatars.githubusercontent.com/u/203043392?v=4&s=200" width="100px;" alt="230660221002"/><br>
+        <sub><b>Galih Permana Sidik</b></sub>
+      </a><br>
+      <sub>230660221002</sub>
     </td>
     <td align="center">
       <a href="https://github.com/230660221009">
@@ -123,11 +123,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/BillyApandisastra230660221112">
-        <img src="https://avatars.githubusercontent.com/u/203065988?v=4&s=200" width="100px;" alt="BillyApandisastra230660221112"/><br>
-        <sub><b>Billy Apandisastra</b></sub>
+      <a href="https://github.com/SharelFatur">
+        <img src="https://avatars.githubusercontent.com/u/203067057?v=4&s=200" width="100px;" alt="SharelFatur"/><br>
+        <sub><b>SharelFatur</b></sub>
       </a><br>
-      <sub>230660221112</sub>
+      <sub>230660221108</sub>
     </td>
     <td align="center">
       <a href="https://github.com/230660221005">
@@ -137,20 +137,27 @@
       <sub>230660221005</sub>
     </td>
     <td align="center">
+      <a href="https://github.com/BillyApandisastra230660221112">
+        <img src="https://avatars.githubusercontent.com/u/203065988?v=4&s=200" width="100px;" alt="BillyApandisastra230660221112"/><br>
+        <sub><b>Billy Apandisastra</b></sub>
+      </a><br>
+      <sub>230660221112</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="https://github.com/230660221026">
         <img src="https://avatars.githubusercontent.com/u/203064744?v=4&s=200" width="100px;" alt="230660221026"/><br>
         <sub><b>Wendi Feriyanda</b></sub>
       </a><br>
       <sub>230660221026</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/ferry">
         <img src="https://avatars.githubusercontent.com/u/28897?v=4&s=200" width="100px;" alt="ferry"/><br>
         <sub><b>ferry</b></sub>
       </a><br>
-      <sub>230660221013</sub>
+      <sub>230660221009</sub>
     </td>
   </tr>
 </table>
