@@ -1,4 +1,4 @@
-# TES KONSEP UTS — MILESTONE M4
+﻿# TES KONSEP UTS — MILESTONE M4
 
 **Nama:** Ade Yusup Maulana  
 **NIM:** 230660221009  
@@ -17,19 +17,19 @@ Jawablah 10 pertanyaan esai sesuai pemahaman sendiri berdasarkan materi Pertemua
 
 ## Daftar Pertanyaan
 
-### 1. Konsep Aplikasi Mobile
+## Soal 1 — Konsep Aplikasi Mobile
 
 Aplikasi mobile adalah aplikasi yang bisa dipakai lewat perangkat seperti HP atau tablet untuk membantu aktivitas penggunanya. Karena bisa dibawa ke mana-mana, aplikasi ini bisa diakses kapan saja dan di mana saja. Aplikasi mobile juga biasanya memakai fitur bawaan perangkat, seperti kamera, GPS, dan notifikasi, jadi penggunaannya lebih praktis.
 
 Dari cara pembuatannya, aplikasi mobile ada tiga jenis. Pertama, aplikasi native, yaitu aplikasi yang dibuat khusus untuk satu platform, misalnya Android atau iOS, sehingga performanya lebih bagus. Kedua, aplikasi berbasis web, yaitu aplikasi yang dibuka lewat browser tanpa harus diinstal. Ketiga, aplikasi hybrid atau cross-platform, yaitu aplikasi yang dibuat dengan satu kode program tapi bisa jalan di beberapa platform, contohnya Flutter dan React Native.
 
-### 2. Bahasa Pemrograman Dart
+## Soal 2 — Bahasa Pemrograman Dart
 
 Dart adalah bahasa pemrograman yang dipakai Flutter untuk membuat aplikasi. Bahasa ini dibuat oleh Google dan cara penulisan kodenya mirip Java atau JavaScript, jadi lebih gampang dipelajari kalau sudah pernah belajar pemrograman. Dengan Dart, kita bisa bikin aplikasi mobile, web, dan desktop dari satu kode program.
 
 Dart juga punya fitur hot reload, jadi kalau ada perubahan kode, hasilnya langsung kelihatan di aplikasi tanpa harus dijalankan ulang dari awal. Hal ini bikin proses pembuatan aplikasi jadi lebih cepat.
 
-### 3. Flutter dan Widget
+## Soal 3 — Flutter dan Widget
 
 Flutter adalah framework buatan Google yang dipakai untuk membuat aplikasi, baik mobile, web, maupun desktop, dari satu kode program. Bahasa pemrogramannya pakai Dart.
 
@@ -37,7 +37,7 @@ Di Flutter, semua yang muncul di layar disebut widget. Widget ini komponen penyu
 
 Widget ada dua jenis, yaitu StatelessWidget untuk tampilan yang tidak berubah, dan StatefulWidget untuk tampilan yang bisa berubah, misalnya angka pada counter yang bertambah saat tombol ditekan.
 
-### 4. Struktur Project Flutter
+## Soal 4 — Struktur Project Flutter
 
 Struktur project Flutter adalah susunan folder dan file yang dipakai untuk mengatur kode, tampilan, dan kebutuhan aplikasi supaya lebih rapi dan gampang dikelola. Pas bikin project baru, Flutter otomatis membuatkan struktur ini.
 
@@ -51,7 +51,7 @@ pubspec.yaml: file pengaturan project, misalnya untuk menambah package, gambar, 
 
 Jadi, dengan struktur yang rapi, kita lebih mudah mencari file, menambah fitur, dan mengatur isi aplikasi.
 
-### 5. Analisis Kebutuhan Pengguna
+## Soal 5 — Analisis Kebutuhan Pengguna
 
 Analisis kebutuhan pengguna adalah proses mencari tahu apa saja yang dibutuhkan pengguna sebelum aplikasi dibuat. Tujuannya supaya aplikasi yang dibuat benar-benar sesuai dengan kebutuhan pengguna dan tidak ada fitur yang terlewat atau malah tidak terpakai.
 
@@ -59,7 +59,7 @@ Cara mengumpulkan kebutuhan ini bisa lewat beberapa metode, misalnya wawancara, 
 
 Jadi, dengan analisis kebutuhan yang baik, pengembangan aplikasi bisa lebih terarah dan hasil akhirnya lebih bermanfaat buat penggunanya.
 
-### 6. User Flow
+## Soal 6 — User Flow
 
 User flow adalah urutan langkah yang dilakukan pengguna saat memakai aplikasi, mulai dari pertama kali membuka aplikasi sampai tujuannya tercapai. Biasanya digambarkan dalam bentuk diagram alur supaya gampang dilihat dan dipahami.
 
@@ -67,13 +67,13 @@ Fungsi user flow adalah membantu kita membayangkan bagaimana pengguna berpindah 
 
 Jadi, user flow penting dibuat di tahap perancangan supaya aplikasi lebih mudah dipakai dan sesuai dengan kebiasaan penggunanya.
 
-### 7. UI/UX
+## Soal 7 — UI/UX
 
 UI (User Interface) adalah hal yang berkaitan dengan tampilan aplikasi, seperti warna, tombol, ikon, jenis huruf, dan tata letak halaman. Sementara UX (User Experience) adalah pengalaman yang dirasakan pengguna saat memakai aplikasi, misalnya apakah aplikasinya gampang dipakai, alurnya jelas, dan nyaman dari awal sampai selesai.
 
 Keduanya saling berhubungan. UI yang bagus tapi alurnya membingungkan tetap bikin pengguna kesulitan, begitu juga sebaliknya. Jadi, aplikasi yang baik itu tampilannya menarik (UI) dan juga enak dipakai (UX).
 
-### 8. Navigasi dan Interaksi
+## Soal 8 — Navigasi dan Interaksi
 
 Navigasi adalah cara mengatur perpindahan dari satu halaman ke halaman lain di dalam aplikasi, misalnya lewat menu, tombol, atau tab di bagian bawah layar. Di Flutter, perpindahan halaman biasanya memakai Navigator.push() untuk pindah ke halaman baru dan Navigator.pop() untuk kembali ke halaman sebelumnya.
 
@@ -81,7 +81,7 @@ Sementara interaksi adalah respons aplikasi terhadap tindakan yang dilakukan pen
 
 Keduanya sama-sama penting karena navigasi yang jelas bikin pengguna tidak tersesat, dan interaksi yang responsif bikin aplikasi terasa nyaman dipakai.
 
-### 9. Pengelolaan Data Lokal
+## Soal 9 — Pengelolaan Data Lokal
 
 Pengelolaan data lokal adalah proses menyimpan dan mengelola data langsung di perangkat pengguna, jadi data tetap bisa dipakai walaupun tidak ada koneksi internet. Data ini tersimpan di HP dan tidak perlu diambil dari server setiap kali aplikasi dibuka.
 
@@ -89,7 +89,7 @@ Di Flutter, ada beberapa cara yang biasa dipakai. shared_preferences dipakai unt
 
 Kelebihannya, aplikasi jadi lebih cepat dibuka dan bisa dipakai secara offline. Kekurangannya, data hanya ada di satu perangkat, jadi kalau aplikasinya dihapus atau HP hilang, data bisa ikut hilang kalau tidak ada cadangan.
 
-### 10. CRUD dan Persistence
+## Soal 10 — CRUD dan Persistence
 
 CRUD adalah empat operasi dasar dalam mengelola data, yaitu Create (menambah data baru), Read (menampilkan atau membaca data), Update (mengubah data yang sudah ada), dan Delete (menghapus data). Contohnya di aplikasi catatan: bikin catatan baru itu Create, melihat daftar catatan itu Read, mengedit isi catatan itu Update, dan menghapus catatan itu Delete.
 
