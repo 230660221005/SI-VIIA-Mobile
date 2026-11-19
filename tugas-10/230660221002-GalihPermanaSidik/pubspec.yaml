@@ -1,0 +1,15 @@
+name: silapor_kampus
+description: SiLapor Kampus, pelaporan kerusakan fasilitas kampus. Tugas 10 PAB, integrasi data dari dua endpoint.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
