@@ -1,0 +1,10 @@
+# Matriks Validasi Input — SI Perpustakaan Kampus
+
+| Input | Aturan client | Pemeriksaan server | Pesan error |
+|:------|:--------------|:-------------------|:------------|
+| **Nama Lengkap Mahasiswa** | Wajib diisi (`trim().isNotEmpty`), panjang minimal 3 karakter dan maksimal 100 karakter (`PengajuanValidator.validasiNama`). | Memastikan tipe data string, sanitasi karakter berbahaya (XSS/SQLi), dan mencocokkan dengan data akademik mahasiswa aktif. | *"Nama lengkap mahasiswa wajib diisi."* / *"Nama lengkap minimal terdiri dari 3 karakter."* |
+| **NIM Mahasiswa** | Wajib diisi dan harus tepat 12 digit angka sesuai pola `^\d{12}$` (`PengajuanValidator.validasiNim`). | Memverifikasi keberadaan NIM pada database mahasiswa aktif dan memeriksa apakah mahasiswa memiliki tunggakan/denda buku. | *"Format NIM tidak valid (harus 12 digit angka, contoh: 230660221021)."* |
+| **Email Mahasiswa** | Wajib diisi dan sesuai format email standar (`PengajuanValidator.validasiEmail`). | Memvalidasi format email, domain kampus yang sah, dan status verifikasi akun. | *"Format email tidak valid (contoh: nama@student.unsap.ac.id)."* |
+| **Judul Buku** | Wajib diisi, panjang minimal 5 karakter dan maksimal 150 karakter (`PengajuanValidator.validasiJudulBuku`). | Memeriksa ketersediaan stok eksemplar buku di katalog perpustakaan dan status kelayakan pinjam buku. | *"Judul buku yang dipinjam wajib diisi."* / *"Judul buku terlalu pendek (minimal 5 karakter)."* |
+| **Durasi Peminjaman (Hari)** | Wajib diisi berupa bilangan bulat (`int.tryParse`) dengan rentang nilai 1 hingga 14 hari (`PengajuanValidator.validasiDurasiHari`). | Menghitung tanggal jatuh tempo pengembalian sesuai kalender akademik dan aturan maksimal masa pinjam. | *"Durasi peminjaman buku hanya diizinkan antara 1 hingga 14 hari."* |
+| **Lampiran Foto Kondisi Buku** | Ukuran file tidak boleh 0 MB dan maksimal 5.0 MB (`PengajuanValidator.validasiUkuranLampiran`). | Memeriksa *MIME type* asli file gambar (JPEG/PNG), ukuran maksimal payload di server, dan pemindaian keamanan berkas. | *"Ukuran file lampiran maksimal 5 MB."* |
