@@ -77,13 +77,6 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/Nazwa230660221104">
-        <img src="https://avatars.githubusercontent.com/u/203066217?v=4&s=200" width="100px;" alt="Nazwa230660221104"/><br>
-        <sub><b>Nazwa230660221104</b></sub>
-      </a><br>
-      <sub>230660221104</sub>
-    </td>
-    <td align="center">
       <a href="https://github.com/230660221010">
         <img src="https://avatars.githubusercontent.com/u/202970202?v=4&s=200" width="100px;" alt="230660221010"/><br>
         <sub><b>Dede Dian Permana</b></sub>
@@ -96,6 +89,13 @@
         <sub><b>nisa230660221023</b></sub>
       </a><br>
       <sub>230660221023</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Nazwa230660221104">
+        <img src="https://avatars.githubusercontent.com/u/203066217?v=4&s=200" width="100px;" alt="Nazwa230660221104"/><br>
+        <sub><b>Nazwa230660221104</b></sub>
+      </a><br>
+      <sub>230660221104</sub>
     </td>
   </tr>
   <tr>
@@ -123,11 +123,11 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/BillyApandisastra230660221112">
-        <img src="https://avatars.githubusercontent.com/u/203065988?v=4&s=200" width="100px;" alt="BillyApandisastra230660221112"/><br>
-        <sub><b>Billy Apandisastra</b></sub>
+      <a href="https://github.com/230660221026">
+        <img src="https://avatars.githubusercontent.com/u/203064744?v=4&s=200" width="100px;" alt="230660221026"/><br>
+        <sub><b>Wendi Feriyanda</b></sub>
       </a><br>
-      <sub>230660221112</sub>
+      <sub>230660221026</sub>
     </td>
     <td align="center">
       <a href="https://github.com/230660221005">
@@ -137,20 +137,27 @@
       <sub>230660221005</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/230660221026">
-        <img src="https://avatars.githubusercontent.com/u/203064744?v=4&s=200" width="100px;" alt="230660221026"/><br>
-        <sub><b>Wendi Feriyanda</b></sub>
+      <a href="https://github.com/SharelFatur">
+        <img src="https://avatars.githubusercontent.com/u/203067057?v=4&s=200" width="100px;" alt="SharelFatur"/><br>
+        <sub><b>SharelFatur</b></sub>
       </a><br>
-      <sub>230660221026</sub>
+      <sub>230660221108</sub>
     </td>
   </tr>
   <tr>
+    <td align="center">
+      <a href="https://github.com/BillyApandisastra230660221112">
+        <img src="https://avatars.githubusercontent.com/u/203065988?v=4&s=200" width="100px;" alt="BillyApandisastra230660221112"/><br>
+        <sub><b>Billy Apandisastra</b></sub>
+      </a><br>
+      <sub>230660221112</sub>
+    </td>
     <td align="center">
       <a href="https://github.com/ferry">
         <img src="https://avatars.githubusercontent.com/u/28897?v=4&s=200" width="100px;" alt="ferry"/><br>
         <sub><b>ferry</b></sub>
       </a><br>
-      <sub>230660221013</sub>
+      <sub>230660221109</sub>
     </td>
   </tr>
 </table>
